@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zikr-container{
+    position: absolute;
+    top: 10%;
+    border: 5px solid rgb(219,186,128);
+    padding: 10px 30px;
+    cursor: pointer;  
+    color: rgb(190, 156, 97);
+    letter-spacing: 1.5px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.options{
+    position: absolute;
+    z-index: 1;
+    padding: 20px;
+    background-color: rgb(219,186,128);
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 22px;
+    border-radius: 20px;
+    display: none;
+    font-weight: bold;
+}
+.options p{
+    cursor: pointer;
+    margin: 10px 0;
+}
+.options p:hover{
+    text-decoration: underline;
+}
+
+.tasbeh-container{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(30px);
+}
+.tasbeh-container img{
+    height: 360px;
+}
+
+.tasbeh-container .counter{
+    position: absolute; 
+    width: 70px;
+    height: 70px;
+    font-size: 42px;
+    color: rgb(190, 156, 97);
+    border-radius: 50px;
+    background-color: #fff;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#clear{
+    position: absolute;
+    bottom: 10%;
+    letter-spacing: 1.5px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: rgb(143, 114, 65);
+    cursor: pointer;
+    border: 1px solid #111;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: bold;
+background-color: #fff;
+}
